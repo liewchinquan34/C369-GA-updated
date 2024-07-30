@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display:flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar-custom {
+            background-color: #2b0032;
+        }
+        .navbar-custom .navbar-nav .nav-link {
+            color:white;  
+        }
+        .navbar-custom .navbar-brand img {
+            width: 100px; 
+            height: 100px;
+        }
+         .navbar-custom .nav-login a {
+            color: white;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .promo-section {
+            display:flex;
+            justify-content: center;
+            align-items: flex-end; 
+            margin:20px;
+        }
+        .promo-section img {
+            width: 500px; 
+            margin-right: 20px; 
+        }
+        .promo-details {
+            margin-left: 20px;
+        }
+        .highlight {
+            background-color: #D8BFD8;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="companylogo.png" alt="Company Logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wallet.html">Wallet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reason.html">Reason</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-login">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="promo-section">
+            <img src="frauddetection.png" alt="Fraud Detection App">
+            <div class="promo-details">
+                <h3>Having a promotion!</h3>
+                <p>20% off when you purchase.<br>
+                (Original Price: $50, Current Price: $40)</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h4>Worried that all your money would be gone?</h4>
+            <p>Our Company is giving a promotion right now! With $40, you are able to have a fraud-detection app that detects fraudulent transactions to prevent your money from going missing.<br>
+            What are you waiting for? Purchase Now!</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

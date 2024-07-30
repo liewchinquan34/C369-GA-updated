@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Features</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar-custom {
+            background-color: #2b0032;
+        }
+        .navbar-custom .navbar-nav .nav-link {
+            color: white;
+        }
+        .navbar-custom .navbar-brand img {
+            width: 100px; 
+            height: 100px;
+        }
+        .navbar-custom .nav-login a {
+            color: white;
+        }
+        .feature-container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .feature-title {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+        .feature-item {
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .feature-item img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .feature-item p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .learn-more-btn {
+            margin-top: 30px;
+            font-size: 1em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: black;
+            background-color: #c4b5fd;
+            }    
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="companylogo.png" alt="Company Logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wallet.html">Wallet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reason.html">Reason</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-login">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container feature-container">
+        <h2 class="feature-title">Service Feature of our app</h2>
+        <div class="row">
+            <div class="col-md-4 feature-item">
+                <img src="time.png" alt="Feature 1">
+                <p><strong>1) Real time-analysis</strong><br>- real time monitoring for 24/7 to analyze transactions to prevent fraudulent transactions.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <img src="book.png" alt="Feature 2">
+                <p><strong>2) Machine learning</strong><br>- machine learning algorithm to detect new fraud pattern that is evolving due to the advance in technology.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <img src="scalability.png" alt="Feature 3">
+                <p><strong>3) Scalability</strong><br>- able to handle increasing number of transactions without affecting the performance of the app to detect any fraudulent transactions.</p>
+            </div>
+        </div>
+        <a href="reason.html" class="btn learn-more-btn">Learn More</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
